@@ -1,0 +1,115 @@
+.table {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  padding-bottom: 0px;
+}
+.row1 {
+  font-size: 18px !important;
+  font-weight: 600;
+  border-bottom: 2px solid #ddd;
+  margin: auto;
+}
+.row0 {
+  display: flex;
+  justify-content: space-between;
+  min-height: 60px;
+  align-items: center;
+  margin: 2px;
+  border-bottom: 2px solid #ddd;
+}
+
+.row1 {
+  display: flex;
+  min-height: 60px;
+  align-items: center;
+}
+.hide {
+  visibility: hidden;
+}
+.col0 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-right: 20px;
+  font-size: 15px;
+}
+.col00 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 20px;
+}
+.col1 {
+  width: 50%;
+}
+.col2 {
+  width: 33%;
+}
+.col3 {
+  width: 25%;
+}
+.col4 {
+  width: 20%;
+}
+.col5 {
+  width: 16.6%;
+}
+.actionTitle {
+  text-align: right;
+  padding-right: 50px;
+}
+.action {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.action div {
+  margin: 0 0 0 20px;
+}
+.register {
+  display: none;
+}
+.grow-1 {
+  flex-grow: 1;
+}
+.grow-2 {
+  flex-grow: 4;
+}
+.event-button {
+  padding: 10px !important;
+  margin: 5px !important;
+  background-color: #51b461;
+}
+.event-modal {
+  text-align: center;
+}
+.event-header {
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.swal2-popup {
+  width: 40%;
+}
+.event-textarea {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 9px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px;
+  width: 95%;
+  border: 2px solid #f6f6f6;
+  border-radius: 5px 5px 5px 5px;
+}
+.event-textarea:placeholder {
+  color: #cccccc;
+}
+.event-label {
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+}
